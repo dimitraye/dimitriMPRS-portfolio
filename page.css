@@ -1,3 +1,397 @@
+body {
+    background-color: RGBa(105, 194, 173 ,0.8);
+}
 h1 {
-    color: brown;
+    color: red;
+}
+
+nav {
+    width: 100%;
+    background-color: #424558;
+    
+}
+
+nav ul {
+    margin: 0px;
+    padding:  0px;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFF;
+}
+
+.nav11:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.nav12:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.nav13:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.nav14:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.nav15:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.nav16:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.nav17:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+.nav18:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+
+li {
+    list-style-type: none;
+}
+
+.containerProfil {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.container1 {
+    width: 500px;
+    height: 280px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.apropos {
+    border-radius: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    padding: 10px;
+    width: 400px;
+    border: 1px black solid;
+    justify-content: space-around;
+
+
+}
+
+.comp {
+    border-radius: 15px;
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px black solid;
+
+}
+
+.qualidef {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 140px;
+    align-content: space-between;
+
+}
+.Tqual {
+    text-align: center;
+}
+
+.qualites {
+    border-radius: 25px;
+    background-color: darkcyan;
+    padding: 7px;
+    border: 1px black solid;
+}
+
+.Tdef {
+    text-align: center;
+}
+
+.defauts {
+    border-radius: 25px;
+    margin-left: 10px;
+    background-color: darkred;
+    padding: 7px;
+    border: 1px black solid;
+}
+
+.containerFormation {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.titreFormation {
+    text-align: center;
+}
+
+.formation {
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    align-content: space-between;
+}
+
+.titreBTS {
+    text-align: center;
+}
+
+.bts {
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    border: 1px black solid;
+    padding: 10px;
+    background-color:  gray;
+}
+
+.localisation {
+    margin-left: 350px; 
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Oslam {
+    text-align: center;
+}
+
+.slam {
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    border: 1px black solid;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.titreDebouches {
+    text-align: center;
+}
+
+.debouches {
+    border-radius: 15px;
+    background-color: #FFF;
+    width: 500px;
+    height: 200px;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+.containerProjet {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.TprojetL {
+    
+    text-align: center;
+}
+
+.projetLigne {
+    border-radius: 15px;
+    background-color: #FFF;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 580px;
+    align-content: space-between;
+    border: 1px black solid;
+}
+
+
+.projet1 {
+    margin-right: 280px;
+}
+
+.projet2 {
+    margin-right: 280px;
+}
+.pypendu {
+    width: 300px;
+    height: 300px;
+}
+
+.pycredit {
+    width: 300px;
+    height: 300px;
+}
+
+.projport {
+    width: 300px;
+    height: 300px;
+}
+
+.Tpendu {
+    text-align: center;
+}
+
+.pp1 {
+    width: 280px;
+    height: 350px;
+    text-align: center;
+}
+
+.Tcredit {
+    text-align: center;
+}
+
+.pp2 {
+    width: 280px;
+    height: 350px;
+    text-align: center;
+}
+
+.pyport {
+    width: 300px;
+    height: 300px;
+}
+
+.Tport {
+    text-align: center;
+}
+
+.pp3 {
+    width: 280px;
+    height: 350px;
+    text-align: center;
+}
+
+
+
+.containerStage {
+    border-radius: 15px;
+    background-color: #FFF;
+    border: 1px black solid;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.Tstage {
+    text-align: center;
+}
+
+.defStage {
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    border: 1px black solid;
+    padding: 10px;
+    width: 350px;
+    height: 90px;
+    background-color:  gray;
+    margin-bottom: 10px;
+}
+
+.Pcontexte {
+  
+    padding: 10px;
+    width: 150;
+    height: 2500;
+    margin-bottom: 10px;
+}
+
+.projOutil {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 160px;
+    align-content: space-between;
+}
+
+.Pprojet {
+    padding: 10px;
+    height: 140px;
+    width:  350px;
+}
+
+.Poutils {
+    margin-left:  150px;
+    padding: 10px;
+    height: 140px;
+    width:  350px;
+    border: 1px black solid;
+}
+
+
+
+
+
+.Tveille {
+    text-align: center;
+}
+
+.containerVeille {
+    border-radius: 15px;
+    background-color: #FFF;
+    border: 1px black solid;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.defMot {
+    border-radius: 15px;
+    margin: auto;
+    border: 1px black solid;
+    padding: 10px;
+    width: 350px;
+    height: 190px;
+    text-align: center;
+    background-color: gray;
+}
+
+.listeMot { 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.listeNews {
+    padding: 10px;
+}
+
+.Tthanks {
+    text-align: center;
+}
+
+.containerThanks {
+    border-radius: 15px;
+    background-color: rgb(196, 208, 207);
+    border: 1px black solid;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.Tcall {
+    text-align: center;
+}
+
+.containerContact {
+    border-radius: 15px;
+    background-color: rgb(187, 180, 180);
+    border: 1px black solid;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    
 }

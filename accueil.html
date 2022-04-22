@@ -13,92 +13,53 @@
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="styles.css" rel="stylesheet" />
-        <!--<link href="page.css" rel="stylesheet" />-->
+        <!--<link href="styles.css" rel="stylesheet" />-->
+        <link href="page.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky",window.scrollY>0)
+            })
+        </script>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <nav class="nav1" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Dimitri MOMPEROUSSE</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
+                
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <!--<li class="nav-item"><a class="nav-link" href="#about">A Propos</a></li>-->
                         <!--<li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>-->
                         <!--<li class="nav-item"><a class="nav-link" href="#signup">Me Contacter</a></li>-->
-                        <li class="nav-item"><a class="nav-link" href="#sectionProfil">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sectionFormation">Formation</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sectionProjet">Projets</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sectionStage">Stage</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sectionVeille">Veille</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sectionRemerciement">Remerciements</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sectionContact">Me Contacter</a></li>
+                        <li class="nav11"><a class="nav-link" href="#sectionProfil">MOMPEROUSSE Dimitri</a></li>
+                        <li class="nav12"><a class="nav-link" href="#sectionProfil">Accueil</a></li>
+                        <li class="nav13"><a class="nav-link" href="#sectionFormation">Formation</a></li>
+                        <li class="nav14"><a class="nav-link" href="#sectionProjet">Projets</a></li>
+                        <li class="nav15"><a class="nav-link" href="#sectionStage">Stage</a></li>
+                        <li class="nav16"><a class="nav-link" href="#sectionVeille">Veille</a></li>
+                        <li class="nav17"><a class="nav-link" href="#sectionRemerciement">Remerciements</a></li>
+                        <li class="nav18"><a class="nav-link" href="#sectionContact">Me Contacter</a></li>
                         
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                        <!--Section Profil/Accueil-->
-                    <section id="sectionProfil">
-                        <h1>Profil</h1>
-                        <article>
-                            <p>Je m'appelle MOMPEROUSSE Dimitri et j'effectue un BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers (BTS SIO SLAM) en accéléré en vue d'entrer en troisième année de Licence Informatique à l'univrsité.</p>
-                        </article>
-                        <article>
-                            Compétences
-                            <p>J'ai pu me familiariser avec différents languages informatiques tels que:</p>
-                            <ul>
-                                <li>Python</li>
-                                <li>Java</li>
-                                <li>C#</li>
-                                <li>Ruby</li>
-                                <li>Php</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                            </ul>
-                        </article>
-                        <aside>Qualités / Défauts</aside>
-                        <div class="container">
-                            <div>
-                                <ul>
-                                    <li>Percévérant</li>
-                                    <li>Dynamique</li>
-                                    <li>Sait travailler en équipe</li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <ul>
-                                    <li>Trop dynamique</li>
-                                    <li>Dans ma bulle</li>
-                                    <li>Facilement distrait</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </header>
         <!-- About-->
         <!--Section mère-->
         <section>
             <!--Section Profil/Accueil-->
-            <section>
-                <h1>Profil</h1>
-                <article>
-                    A Propos
-                    <p>Je m'appelle MOMPEROUSSE Dimitri et j'effectue un BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers (BTS SIO SLAM) en accéléré en vue d'entrer en troisième année de Licence Informatique à l'univrsité.</p>
-                </article>
-                <article>
-                    Compétences
+            <div class="containerProfil" id="sectionProfil">
+                <div class="container1">
+                    <h1>Profil</h1>
+                    <div class="apropos">
+                        <h3><u> A propos </u></h3>
+                        <p>Je m'appelle <strong>MOMPEROUSSE Dimitri</strong> et j'effectue un BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers (BTS SIO SLAM) en accéléré en vue d'entrer en troisième année de Licence Informatique à l'univrsité.</p>
+                    </div>
+                </div>
+                <div class="comp">
+                    <h3>Compétences</h3>
                     <p>J'ai pu me familiariser avec différents languages informatiques tels que:</p>
                     <ul>
                         <li>Python</li>
@@ -109,35 +70,56 @@
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>
-                </article>
-                <aside>Qualités / Défauts</aside>
-                <ul>
-                    <li>Percévérant</li>
-                    <li>Dynamique</li>
-                    <li>Sait travailler en équipe</li>
-                    <li>Trop dynamique</li>
-                    <li>Dans ma bulle</li>
-                    <li>Facilement distrait</li>
-                </ul>
-            </section>
+                </div>
+                <div class="qualidef">
+                    <div class="qualites">
+                        <h3 class="Tqual">Qualités</h3>
+                        <ul>
+                            <li>Percévérant</li>
+                            <li>Dynamique</li>
+                            <li>Sait travailler en équipe</li>
+                        </ul>
+                    </div>
+                    <div class="defauts">
+                        <h3 class="Tdef">Défauts</h3>
+                        <ul>
+                            <li>Trop dynamique</li>
+                            <li>Dans ma bulle</li>
+                            <li>Facilement distrait</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
             <!--Section Formation-->
-            <section id="sectionFormation">
-                <h1>Formation</h1>
-                <section>
-                    <h3>BTS SIO</h3>
-                    <p>Le Brevet Technicien Supérieur Services Informatiques aux Organisations (BTS SIO) vise ceux qui souhaitent se former aux métiers d'administrateur réseau ou de développeur.
-                        Il s'agit d'un dimplôme de niveau bac+2 reconnu par l'état qui s'effectue en 2 ans (sauf formation accélérée <a href="https://www.defi-metiers.fr/dm_search/session/AF_62416">Greta MTE 77</a>).
-                        Suite à cette formation, l'élève sera capable de répondre aux attentes des utilisateurs en assurant la disponibilité des service informatiques ainsi que de prendre en compte les besoins informatiques de l'entreprise ou du client.
-                    </p>
-                    <aside>Lieu de la formation</aside>
-                </section>
-                <section>
-                    <h3>Option SLAM</h3>
-                    <p>L'option Solutions Logicielles et Applications Métiers (BTS SIO option SLAM)</p>
-                </section>
-                <section>
-                    <h3>Débouchées</h3>
+            <div class="containerFormation" id="sectionFormation">
+                <div class="formLieu">
+                    <h1 class="titreFormation">Formation</h1>
+                    <div class="formation">
+                        
+                        <div class="bts">
+                            <h3 class="titreBTS">BTS SIO</h3>
+                            <p>Le Brevet Technicien Supérieur Services Informatiques aux Organisations (BTS SIO) vise ceux qui souhaitent se former aux métiers d'administrateur réseau ou de développeur.
+                                Il s'agit d'un dimplôme de niveau bac+2 reconnu par l'état qui s'effectue en 2 ans (sauf formation accélérée <a href="https://www.defi-metiers.fr/dm_search/session/AF_62416">Greta MTE 77</a>).
+                                Suite à cette formation, l'élève sera capable de répondre aux attentes des utilisateurs en assurant la disponibilité des service informatiques ainsi que de prendre en compte les besoins informatiques de l'entreprise ou du client.
+                            </p>   
+                        </div>
+                        <div class="localisation">
+                            <h3>Lieu formation</h3>
+                            <p>Adresse : <strong>97 Boulevard du Ségrais 77185 LOGNES</strong></p>
+                            <p>Téléphone : <strong>01 60 05 75 00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slam">
+                    <h3 class="Oslam">Option SLAM</h3>
+                    <p>L'option Solutions Logicielles et Applications Métiers (BTS SIO option SLAM) vise les étudiants intéressés par les métiers 
+                        informatiques liés à la conception ou encore la maintenance de programes applicatifs.
+                        A la fin de cette formation l'étudiant doit être capable d'intégrer, sécuriser des 
+                        serveurs pour son entreprise.</p>
+                </div>
+                <div class="debouches">
+                    <h3 class="titreDebouches">Débouchées</h3>
                     <ul>
                         <li>Licence informatique</li>
                         <li>Licence pro systèmes informatiques et logiciels</li>
@@ -147,17 +129,19 @@
                         <li>Analyste d'exploitation informatique</li>
                         <li>Développeur informatique</li>
                     </ul>
-                </section>
+                </div>
                 
 
-            </section>
+            </div>
 
             <!--Section Projets-->
-            <section id="sectionProjet">
-                <h1>Projets</h1>
-                <div id="projetLigne">
-                    <div class="projet1"><img src="projetPython.png" alt=".." id="pypendu">
-                        <p>Le but du projet est de programmer un jeu qui demandera à l'utilisateur de deviner
+            <div class="containerProjet" id="sectionProjet">
+                <h1 class="TprojetL">Projets</h1>
+                <div class="projetLigne">
+                    <div class="projet1">
+                        <h4 class="Tpendu">Pendu</h4>
+                        <img src="projetPython.png" alt=".." class="pypendu">
+                        <p class="pp1">Le but du projet est de programmer un jeu qui demandera à l'utilisateur de deviner
                             un mot secret en entrant tour par tour les lettres qu'il pense se trouver dans 
                             le mot secret.
                             S'il entre une lettre qui ne se trouve pas dans le mot secret, un pendu commence à
@@ -165,153 +149,117 @@
                             ce qui annoncerait par la même occasion que la défaite du joueur.
                         </p>
                     </div>
-                    <div class="projet3">Portfolio 
-                        <p>Le portfolio est un projet qui sera aussi évaluer dans une épreuve de BTS.
+                    <div class="projet2">
+                        <h4 class="Tcredit">Credit</h4>
+                        <img src="creditFront.png" alt=".." class="pycredit">
+                        <p class="pp2">
+                            Le but de ce projet est de simuler un les activités d'un banquier en passant par la 
+                            consultation des clients ayant fais un pré à la banque jusqu'à l'inscription d'un
+                            nouveau client souhaitant faire un crédit.
+                        </p>
+                    </div>
+                    <div class="projet3">
+                        <h4 class="Tport">Portfolio</h4> 
+                        <a href="accueil.html"><img src="portfolio.png" alt="..." class="projport"></a>
+                        <p class="pp3">Le portfolio est un projet qui sera aussi évaluer dans une épreuve de BTS.
                             Le but étant de créer une page web recenssant diverses informations à mon sujet.
                             </p>
                     </div>
                 </div>
-            </section>
+            </div>
 
             <!--Section Stage-->
-            <section id="sectionStage">
-                <h1>Stage</h1>
-                <h3>Contexte</h3>
-                <p>La formation BTS </p>
-                <h3>Projet</h3>
-                <p>Jai effectué mon stage dans l'entreprise de ma tante. l'objectif de mon stage était de créer un site web permettant aux visiteurs d'entrer différentes informations sur une propriété qu'ils souhaitent vendre</p>
-                <h3>Outils Utilisés</h3>
-                <ul>
-                    <li>Java (Eclipse)</li>
-                    <li>HTML / CSS / Bootstrap</li>
-                    <li>Spring</li>
-                </ul>
-            </section>
+            <h1 class="Tstage">Stage</h1>
+            <div class="containerStage" id="sectionStage">
 
-            <!--Section Veille Informatique-->
-            <section id="sectionVeille">
-                <h1>Veille Informatique</h1>
-                <h3>Les Moteurs de Jeux</h3>
-                <p>Un moteur de jeu est un ensemble de logiciels chargés d'effectuer </p>
-                <ul>
-                    <li><a href="https://fr.wikipedia.org/wiki/Unreal_Engine">Unreal Engine</a> (<a href="https://us.streetfighter.com/">Street Fighter V</a>)</li>
-                    <li><a href="https://en.wikipedia.org/wiki/Luminous_Engine">Luminous Engine</a> (<a href="https://fr.finalfantasyxiv.com/">Final Fantasy XIV</a>)</li>
-                    <li><a href="https://fr.wikipedia.org/wiki/Unity_(moteur_de_jeu)">Unity</a> (<a href="https://playhearthstone.com/fr-fr">Hearthstone</a>)</li>
-                    <li><a href="https://fr.wikipedia.org/wiki/MT_Framework">MT Framework</a> (<a href="http://monsterhunterworld.com/fr/">Monster Hunter World</a>)</li>
-                </ul>
-                <ul>
-                    <!--Liens de site web information-->
-                    <li><a href="https://www.cowcotland.com/news/tag/moteur-graphique/">Cowcotland</a></li>
-                    <li><a href="https://www.gamedev.net/news/">GameDev</a></li>
-                    <li><a href="https://gamefromscratch.com/">GameFromScratch</a></li>
-                </ul>
-            </section>
+                <p class="defStage">
+                    Le stage est destiné à donner une représentation concrète du milieu professionnel lié
+                    au domaine de l'informatique, tout en lui permettant d'acquérir de nouvelles compétences 
+                    professionnelles.
+                </p>
 
-            <!--Remerciements-->
-            <section id="sectionRemerciement">
-                <h1>Remerciements</h1>
-                <p>Je Remercie en premier lieu tout le personnel du Greta de Lognes qui m'ont accompagnés durant cette courte mais très instructive année.</p>
-                <ul>
-                    <!--Nom de tous les proffessuers d'informatique+ dames de l'administration-->
-                    <li>Emmanuel</li>
-                    <li>Pierre</li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <p>Ainsi que ma tutrice de stage:</p>
-                <ul>
-                    <li>Jeanne Blaneus</li>  
-                </ul>
-            </section>
+                <div class="Pcontexte">
+                    <h3 class="Tcontexte">Contexte</h3>
+                    <p>
+                        L'entreprise souhaite développer un site web permettant aux visiteurs de mettre en vente, 
+                        acheter, louer un logement. Pour ce faire, l'utilisateur aura la possibilité de renseigner
+                        différentes informations liées à son biendans un formulaire, de les enregistrer ainsi que de 
+                        voir la liste des biens mis en vente. 
+                    </p>
+                </div>
 
-            <!--Me Contacter-->
-            <section id="sectionContact">
-                <h1>Me contacter</h1>
-                <!--Addresse Mel pro + numéro de téléphone-->
-                <p>Adresse Mel : dimitri.momperousse.pro@gmail.com</p>
-                <p>Téléphone portable : 07 67 61 03 49</p>
-
-            </section>
-
-
-        </section>
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
-                        <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                <div class="projOutil">
+                    <div class="Pprojet">
+                    <h3>Projet</h3>
+                        <p>
+                            J'ai eu pour objectif de développer ce site de A à Z en passant par la réalisation de la base de donnée 
+                            jusqu'à la réalisation des différentes interactions entre le back-end et le front-end, 
+                            en étant superviser par ma tutrice.
                         </p>
                     </div>
-                </div>
-                <img class="img-fluid" src="ipad.png" alt="..." />
-            </div>
-        </section>
-        <!-- Projects-->
-            <!--Quand je clique sur le lien projet, importer la page du projet à la place de la page d'accueil-->
-        <!-- Projects-->
-        
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
+                    <div class="Poutils">
+                        <h3>Outils Utilisés</h3>
+                        <ul>
+                            <li>Java (Eclipse)</li>
+                            <li>HTML / CSS / Bootstrap</li>
+                            <li>Spring</li>
+                            <li>PhpMyAdmin</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
+            <!--Section Veille Informatique-->
+            <h1 class="Tveille">Veille Informatique</h1>
+
+            <div class="containerVeille" id="sectionVeille">
+                <div class="defMot">
+                    <h3 class="Tmoteur">Les Moteurs de Jeux</h3>
+                    <p>Un moteur de jeu est un framework comprenant plusieurs outils/librairies liées au dévelopement
+                        d'un jeu vidéo. Un moteur puet contenir les outils nécessaires à la conception des musiques des
+                        différents niveaux d'un jeu jusqu'aux outils calculant la physique derrière les mouvements d'un
+                        personnage.
+                    </p>
+                </div>
+                <div class="listeMot">
+                    <h3>Liste de moteurs de jeux :</h3>
+                    <ul>
+                        <li><a href="https://fr.wikipedia.org/wiki/Unreal_Engine"><strong>Unreal Engine</strong></a> (<a href="https://us.streetfighter.com/">Street Fighter V</a>)</li>
+                        <li><a href="https://en.wikipedia.org/wiki/Luminous_Engine"><strong>Luminous Engine</strong></a> (<a href="https://fr.finalfantasyxiv.com/">Final Fantasy XIV</a>)</li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Unity_(moteur_de_jeu)"><strong>Unity</strong></a> (<a href="https://playhearthstone.com/fr-fr">Hearthstone</a>)</li>
+                        <li><a href="https://fr.wikipedia.org/wiki/MT_Framework"><strong>MT Framework</strong></a> (<a href="http://monsterhunterworld.com/fr/">Monster Hunter World</a>)</li>
+                    </ul>
+                </div>
+                <div class="listeNews">
+                    <h3>Sites d'actualités :</h3>
+                    <ul>
+                        <!--Liens de site web information-->
+                        <li><a href="https://www.cowcotland.com/news/tag/moteur-graphique/">Cowcotland</a></li>
+                        <li><a href="https://www.gamedev.net/news/">GameDev</a></li>
+                        <li><a href="https://gamefromscratch.com/">GameFromScratch</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Remerciements-->
+            <h1 class="Tthanks">Remerciements</h1>
+
+            <div class="containerThanks" id="sectionRemerciement">
+                <p>Je Remercie en premier lieu tout le personnel du Greta de Lognes qui m'a accompagné durant cette courte mais très instructive année.</p>
+                <p>Ainsi que ma tutrice de stage.</p>
+            </div>
+
+            <!--Me Contacter-->
+            <h1 class="Tcall">Me contacter</h1>
+
+            <div class="containerContact" id="sectionContact">
+                <!--Addresse Mel pro + numéro de téléphone-->
+                <p>Adresse Mel : <strong>dimitri.momperousse.pro@gmail.com</strong></p>
+                <p>Téléphone portable : <strong>07 67 61 03 49</strong></p>
+
+            </div>
+
+
         </section>
-        <!-- Contact-->
-            <!--Quand je clique sur le lien Me Contacter, importer la page meContacter à la place de la page d'accueil-->
-        <!-- Contact-->
-        
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
